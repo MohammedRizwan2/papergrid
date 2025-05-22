@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.navbar-toggler-icon {
+  border: none;
+  box-shadow: none; 
+}
+.nav-item  a:hover{
+    text-decoration: underline;
+    color:white;
+}
+#top:hover{
+    background-color:	#1a1a1a !important;
+    
+}
+footer a{
+    color: #636262;
+}
+footer ul li::before{
+    content: ".";
+ padding: 0 8.8px;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.icon-hover {
+  transition: transform 0.3s ease;
+}
+
+.icon-hover:hover {
+  transform: scale(1.3) ;
+}
